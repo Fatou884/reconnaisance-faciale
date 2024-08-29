@@ -4,7 +4,7 @@ from PIL import Image
 import numpy as np
 
 # Charger le classificateur en cascade pour la détection des visages
-face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 # Ajouter des instructions à l'interface utilisateur
 st.write("""
